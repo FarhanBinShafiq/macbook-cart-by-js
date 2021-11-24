@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Css Link-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!--Bootstrap CDN Link-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Font awesome Icon Link-->
+    <script src="https://kit.fontawesome.com/7a3ca8b40b.js" crossorigin="anonymous"></script>
+    <title>MAC Book Pro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <img src="./images/mac.png" class="img-fluid rounded" alt="...">
+            </div>
+            <div class="col-xl-6">
+                <div>
+                    <h1>MacBook Pro 16-inch model</h1>
+                    <p>Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage. Connectivity
+                        options include Wi-Fi 802.11 ac, Bluetooth and it comes with 2 USB ports (2 x USB 3.0), Mic In ports.</p>
+                </div>
+
+                <div>
+                    <h5>Memory</h5>
+                    <div class="memory">
+                        <p id="first-memory" class="description">8 GB Unfied Memory</p>
+                        <p id="second-memory" class="description">16 GB Unfied Memory</p>
+                    </div>
+
+
+                </div>
+
+
+                <div>
+                    <h5>Storage</h5>
+                    <div class="storage">
+                        <p class="description" id="first-storage">256GB SSD Storage</p>
+                        <p class="description" id="second-storage">512GB SSD Storage</p>
+                        <p class="description" id="third-storage">1tb SSD Storage</p>
+                    </div>
+
+
+                </div>
+
+
+                <div>
+                    <h5>Chose your delivery option</h5>
+                    <div class="delivery">
+                        <p class="description" id="free-delivery">Free Delivery</p>
+                        <p class="description" id="express-delivery">Express Delivery</p>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <div class="cart-item">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <p>Best Price</p>
+                        </div>
+
+                        <div class="col-xl-6">
+                            <p>$ <span id="best-price">1200</span></p>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <p> Extra Memory Cost</p>
+                        </div>
+
+                        <div class="col-xl-6">
+                            <p>$ <span id='memory-cost'>00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <p>Extra Storage Cost</p>
+                        </div>
+
+                        <div class="col-xl-6">
+                            <p>$ <span id="storage-cost">00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <p>Delivery Charge</p>
+                        </div>
+
+                        <div class="col-xl-6">
+                            <p>$ <span id="delivery-cost">00</span></p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <p>Total cost</p>
+                        </div>
+
+                        <div class="col-xl-6">
+                            <p>$ <span id="total-cost">1200</span></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class='promo'>
+                    <p>Add promo code</p>
+                    <input type="text" value="" id="discount-code">
+                    <button class="btn btn-danger" onclick="promo_Btn()">Apply</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class='total-price'>
+            <p>Total Price:$ <span id="final-total-cost">1200</span></p>
+        </div>
+
+        <script src="./js/script.js"></script>
+
+</body>
+
+</html>

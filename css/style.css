@@ -1,0 +1,35 @@
+ .description {
+     border: 1px solid black;
+     display: inline-block;
+     padding: 5px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .description:hover {
+     background-color: #2c2e3a;
+ }
+ 
+ .cart-item {
+     margin-top: 30px;
+ }
+ 
+ .row {
+     border-bottom: 1px solid black;
+     padding: 5px;
+ }
+ 
+ .promo {
+     margin-top: 30px;
+ }
+ 
+ .total-price {
+     text-align: center;
+ }
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+ .cart-item,
+ p {
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+ }
